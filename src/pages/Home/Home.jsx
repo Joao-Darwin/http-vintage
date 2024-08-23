@@ -1,15 +1,13 @@
 import Card from "../../components/Card/Card";
+import data from "../../data/data";
 import "./Home.css"
 
 const Home = () => {
     return (
         <div className="home">
-            <Card image={"https://i.imgur.com/SYUo12h.jpeg"} statusCode={200}/>
-            <Card image={"https://i.imgur.com/srScUw5.jpeg"} statusCode={200}/>
-            <Card image={"https://i.imgur.com/SYUo12h.jpeg"} statusCode={200}/>
-            <Card image={"https://i.imgur.com/SYUo12h.jpeg"} statusCode={200}/>
-            <Card image={"https://i.imgur.com/SYUo12h.jpeg"} statusCode={200}/>
-            <Card image={"https://i.imgur.com/SYUo12h.jpeg"} statusCode={200}/>
+           {data.map((value) => {
+                return <Card image={value.url} statusCode={value.code}/>
+           })}
         </div>
     )
 }
