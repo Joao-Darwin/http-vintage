@@ -1,4 +1,6 @@
 .header {
+    margin-top: 3.0em;
+    padding-bottom: 3.0em;
     width: 100%;
     display: flex;
     align-items: center;
