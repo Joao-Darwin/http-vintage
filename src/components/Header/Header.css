@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    gap: 1.0em;
+}
+
+img {
+    width: 4.0em;
+}
+
+@media (max-width: 545px) {
+    .header {
+        justify-content: center;
+    }
+}
