@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className="home">
             {data.map((value) => {
-                return <Card image={value.url} code={value.code} />
+                return <Card image={value.url} code={value.code} title={value.title} />
             })}
         </div>
     )
