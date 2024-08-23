@@ -1,4 +1,4 @@
-import GitHubIcon from "../../assets/github-icon.png";
+import GithubIcon from "../../assets/github-icon.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="links">
                 <a href="https://github.com/Joao-Darwin/http-vintage" target="_blank">
-                    <img src={GitHubIcon} alt="Github icon" />
+                    <img src={GithubIcon} alt="Github icon" title="Give a start <3" />
                 </a>
             </div>
             <p>v0.0.1</p>

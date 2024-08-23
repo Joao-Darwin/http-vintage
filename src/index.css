@@ -33,8 +33,13 @@ body {
 }
 
 h1 {
+  color: #A0B2AA;
   font-size: 2.0em;
   line-height: 1.1;
+}
+
+p {
+  color: #F0EAD6
 }
 
 button {
@@ -44,7 +49,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #C08081;
   cursor: pointer;
   transition: border-color 0.25s;
 }
