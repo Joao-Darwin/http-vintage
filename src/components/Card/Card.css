@@ -1,16 +1,19 @@
 .card {
     gap: 5px;
     width: 32.0em;
-    height: 25.0em;
+    height: 28.0em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 5.0em;
 }
 
-img {
+.image {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .divStatusCode {
