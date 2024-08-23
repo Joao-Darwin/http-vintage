@@ -5,9 +5,9 @@ import "./Home.css"
 const Home = () => {
     return (
         <div className="home">
-           {data.map((value) => {
-                return <Card image={value.url} statusCode={value.code}/>
-           })}
+            {data.map((value) => {
+                return <Card image={value.url} code={value.code} />
+            })}
         </div>
     )
 }
