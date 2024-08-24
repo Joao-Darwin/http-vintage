@@ -9,7 +9,7 @@ const Footer = () => {
                     <img src={GithubIcon} alt="Github icon" title="Give a start <3" />
                 </a>
             </div>
-            <p>v0.0.1</p>
+            <p>v0.0.0</p>
             <p>
                 Developed by <a href="https://github.com/Joao-Darwin" target="_blank">João Darwin</a>
             </p>
