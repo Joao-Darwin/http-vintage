@@ -57,7 +57,7 @@ npm run dev
 ```
 <h1 id="contributing">Contributing</h1>
 
-Contributing is welcome. Loot at the `CONTRIBUTING.md` for you know how do this.
+Contributing is welcome. Loot at the [`CONTRIBUTING.md`](https://github.com/Joao-Darwin/http-vintage/blob/main/CONTRIBUTING.md) for you know how do this.
 
 <div>
   <h2 id="author">Author</h2>
